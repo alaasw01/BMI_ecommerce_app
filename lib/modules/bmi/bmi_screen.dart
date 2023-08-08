@@ -285,13 +285,13 @@ class _BmiScreenState extends State<BmiScreen> {
                     print(result.round());
                     String message;
                     if (result < 10.5) {
-                      message = 'Underweight';
+                      message = 'Underweight.';
                     } else if (result >= 18.5 && result < 24.9) {
-                      message = 'Normal';
+                      message = 'Normal.';
                     } else if (result >= 25 && result < 29.9) {
-                      message = 'Overweight';
+                      message = 'Overweight.';
                     } else {
-                      message = 'Obese';
+                      message = 'Obese.';
                     }
 
                     showDialog(
