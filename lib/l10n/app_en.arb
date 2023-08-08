@@ -1,0 +1,11 @@
+{
+     "hello": "Hello, How are you?" ,
+     "male" : "male",
+     "female": "female",
+     "height" : "height",
+      "cm"    :"cm"  ,
+     "age" : "age",
+     "weight" :"weight",
+     "calculate": "calculate"
+
+}
